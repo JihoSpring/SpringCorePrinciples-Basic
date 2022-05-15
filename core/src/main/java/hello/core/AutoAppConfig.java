@@ -26,9 +26,9 @@ public class AutoAppConfig {
     // 그러나 복잡한 설정 속에서 찾기 어려운 애매한 버그가 될 수 있기 때문에 테스트 말고 스프링 부트 실행 시에는 에러가 발생한다.
     // 하지만 다음 설정을 application.properties에 추가하면 수동으로 설정된 Bean을 오버라이딩할 수 있다.
     // `spring.main.allow-bean-definition-overriding=true` 기본값은 false이기 때문에 에러가 발생함
-    @Bean("memoryMemberRepository")
-    MemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
+    // @Bean("memoryMemberRepository")
+    // MemberRepository memberRepository() {
+    //     return new MemoryMemberRepository();
+    // }
 
 }
