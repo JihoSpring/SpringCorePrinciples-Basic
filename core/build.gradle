@@ -31,6 +31,9 @@ dependencies {
 
 	// Provider for Prototype Beans
 	implementation 'javax.inject:javax.inject:1'
+
+	// Spring Web for Web Scope
+	implementation 'org.springframework.boot:spring-boot-starter-web'
 }
 
 tasks.named('test') {
