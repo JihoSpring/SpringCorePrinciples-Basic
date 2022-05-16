@@ -1,3 +1,9 @@
 # IDE
 .vscode/
 .editorconfig
+
+# Lecture materials
+docs/lecture/
+
+# OSX
+.DS_Store
